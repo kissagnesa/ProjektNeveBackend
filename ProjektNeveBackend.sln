@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjektNeveBackend", "ProjektNeveBackend\ProjektNeveBackend.csproj", "{475BD297-8215-4761-AF4E-70D02FBB5312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{475BD297-8215-4761-AF4E-70D02FBB5312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475BD297-8215-4761-AF4E-70D02FBB5312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475BD297-8215-4761-AF4E-70D02FBB5312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475BD297-8215-4761-AF4E-70D02FBB5312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {621A2963-825B-436E-B691-0235A6228982}
+	EndGlobalSection
+EndGlobal

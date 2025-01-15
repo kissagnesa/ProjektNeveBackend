@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="regisztracio.js"></script>
+    <script src="GenerateSalt.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-sha256@0.9.0/build/sha256.min.js"></script>
+</head>
+<body>
+    <form action="">
+        <input type="number" id="id" value="0" maxlength="11" hidden>
+        <label>Felhasznaló neve</label>
+        <input type="text" id="felhasznaloNev">
+        <label>Jelszó</label>
+        <input type="password" id="jelszo">
+        <label>Teljes név</label>
+        <input type="text" id="teljesNev">
+        <input type="text" id="salt" hidden>
+        <input type="text" id="hash" hidden>
+        <label>E-mail</label>
+        <input type="email" id="email">
+        <input type="number" id="jogosultsag" value="1" min="0" max="9" hidden>
+        <input type="number" id="aktiv" value="0" min="0" max="1" hidden>
+        <input type="date" id="regisztracioDatuma" hidden>
+        <input type="text" id="profilKepUtvonal" value="default.jpg" hidden>
+        <button type="button" id="regisztracio" onclick="Regisztracio()">Regisztráció</button>
+    </form>
+</body>
+</html>

@@ -1,6 +1,6 @@
 function Regisztracio(){
   let salt=GenerateSalt(64);
-  document.getElementById("regisztracioDatuma").value=Date.now();
+  let datum=new Date();
   let body={
     "id": document.getElementById("id").value,
     "felhasznaloNev": document.getElementById("felhasznaloNev").value,
@@ -10,7 +10,7 @@ function Regisztracio(){
     "email": document.getElementById("email").value,
     "jogosultsag": document.getElementById("jogosultsag").value,
     "aktiv": document.getElementById("aktiv").value,
-    "regisztracioDatuma": document.getElementById("regisztracioDatuma").value,
+    "regisztracioDatuma": datum.toISOString(),
     "profilKepUtvonal": document.getElementById("profilKepUtvonal").value
   }
   console.log(body);
